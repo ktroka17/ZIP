@@ -1,0 +1,148 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:90% calibri,sans-serif;
+	text-align:center;
+	background: url("images/1.png");
+	background-color: #f0869a;
+    height:700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.header{
+	background-color:#F63155;	
+}
+.header h1{
+	line-height:80px;
+	margin:0;
+	padding-left:10px;
+	color: white;
+}
+div.container{
+	height: auto;
+	width: auto;
+	margin:0 auto;
+}
+div.wrapper{
+	float:right;
+	width:500px;
+}
+div.wrapper p{
+	line-height:1.5;
+	text-align:justify;
+}
+div.navigation{
+	height:500px;
+	width:150px;
+	background:#f0869a;
+}
+ul{
+list-style-type:none;
+}
+li a{
+	color: black;
+	text-decoration: none;
+	padding: 8px 16px;
+	font-family:poppins;
+	font-size: 15px;
+}
+li a:hover{
+	background: #fff;
+	color: #333;
+}
+div.navigation li{
+margin-bottom: 5px;
+}
+div.footer {
+	clear:both;
+}
+div.footer {
+	margin:0;
+	padding:5px 10px;
+}
+p{ 
+margin:0 10px 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+.text-center{
+	color: #fff;	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+.box{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:3px;
+	padding:70px 100px;
+}
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #ACA9EA;
+}
+.btn{
+	color:#F63155;
+	background-color:#F63155;
+	outline: none;
+    border: 0;
+    color: white;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+.error{
+	color:red;
+	 font-size: 20px;
+	text-align: left;
+	font-family:poppins;
+}
+.success{
+	color:green;
+	font-size: 20px;
+	text-align: right;
+	font-family:poppins;
+}
